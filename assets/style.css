@@ -80,8 +80,8 @@ h1 {
   margin: 10px 0;
 }
 
-.quote {
-  background-color: #E5E7EB;
+.btn-alt {
+  border: 2px solid white;
 }
 
 .information h2 {
@@ -112,5 +112,48 @@ h1 {
 }
 
 .information {
-  margin-bottom: 100px;
+  margin-bottom: 120px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 120px 0;
+}
+
+figure {
+  width: 780px;
+  margin: 0 auto;
+}
+
+figcaption {
+  text-align: right;
+  margin-right: 50px;
+}
+
+cite {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+blockquote {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.container.call-to-action {
+  background-color: #3882F6;
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 100px;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.call-to-action h4 {
+  font-size: 24px;
 }

@@ -25,15 +25,10 @@ ul {
   gap: 15px;
 }
 
-.quote {
-  background-color: #E5E7EB;
-}
-
 .container {
   max-width: 1000px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
 }
 
 .logo {
@@ -45,9 +40,10 @@ ul {
 header .container {
   justify-content: space-between;
   padding: 15px 0;
+  align-items: center;
 }
 
-header a,
+header li,
 .hero .secondary {
   color: #E5E7EB;
   font-size: 18px;
@@ -60,7 +56,7 @@ header a,
 
 .hero .container > * {
   flex: 1;
-  height: 200px;
+  /* height: 200px; */
 }
 
 .image {
@@ -70,8 +66,20 @@ header a,
   align-items: center;
 }
 
-.main {
+h1 {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
+}
+
+.btn {
+  background-color: #3882F6;
+  border-radius: 6px;
+  padding: 5px 30px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.quote {
+  background-color: #E5E7EB;
 }

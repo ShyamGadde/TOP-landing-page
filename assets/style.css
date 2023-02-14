@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  margin: 0;
 }
 
 a {
@@ -17,7 +17,6 @@ header,
 footer {
   background-color: #1F2937;
   color: white;
-  display: flex;
 }
 
 ul {
@@ -27,4 +26,9 @@ ul {
 
 .quote {
   background-color: #E5E7EB;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
 }
